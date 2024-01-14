@@ -1,0 +1,25 @@
+#!/bin/bash
+curl 'https://drive.usercontent.google.com/download?id=113FALQFEos9D9X6S-LXO-TadQyWI6xCN&export=download&authuser=0&confirm=t&uuid=029db4d0-5e9d-489e-80a8-c0e305caaae4&at=APZUnTU8qVUa5Ui7lN6TsKoMLUVs%3A1705196645151' \
+  -H 'authority: drive.usercontent.google.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-US,en;q=0.9,es;q=0.8,pt;q=0.7,de;q=0.6' \
+  -H 'cookie: 1P_JAR=2023-12-18-00; AEC=Ackid1R4jsbpzUgY2FSc6e90K6VgynBfgc32GYdQS4icpxNJBxzVl5VA_EA; NID=511=MArPCB0h0rgFB_30qHWm6-R1nLyEnkVhk1VMbiX8BRe5Lh_v8lK_pRkjGEi1Pmg8t0njbFAdxEk8UtWWFAT8my0AV-WIyVeadRnk43Zba477U9ReBm41kqlYbonYt2z1SGzLv_Nz8J-Cc6WKLKBStDwl5BfM9rpbMWozfLLsc9fLhwfUsFcoNo-S1UhMrfR50udR6pgTKeCWh11nmX8pZQCDHkLtzT_efPZznz3z_hlBJPC3DjbbB_Idp-dWVfi15ngxaCKk-QbXclV_VfQQ-ajVBEAcqjRWUCvBrb44C-dOe5Jmgbofbsv5MUMigL_zTMs2VMwSArlUwTjXJF9Ul8I_JOuhMA8wz_vqZA; SID=ewgCuzPchLdrpxxNDOqWP5KpRWrwnSwv7x6XFZVq7188OLW8VSockBbP6-NnOryYmqK32A.; __Secure-1PSID=ewgCuzPchLdrpxxNDOqWP5KpRWrwnSwv7x6XFZVq7188OLW8_3Jp8igYuDf0QVRAaa2VDA.; __Secure-3PSID=ewgCuzPchLdrpxxNDOqWP5KpRWrwnSwv7x6XFZVq7188OLW8eLPSSwny5HJalkq6pa3rDg.; HSID=AcH-TU4i_5zSATmdB; SSID=ALD5hriXqaV7xqGFS; APISID=Ru_BXUsLZCp7bEqL/AYHYgYmm3gQP6SdvP; SAPISID=Cta_AT-bqSMaZ_L9/ABoXZC8rYcsrHEK6A; __Secure-1PAPISID=Cta_AT-bqSMaZ_L9/ABoXZC8rYcsrHEK6A; __Secure-3PAPISID=Cta_AT-bqSMaZ_L9/ABoXZC8rYcsrHEK6A; __Secure-1PSIDTS=sidts-CjEBPVxjSq2BYFbM0VsJRUcch5c9bn7bkoa8DWc8s8RQcQwppL9aQcHmY5abBgza9F_WEAA; __Secure-3PSIDTS=sidts-CjEBPVxjSq2BYFbM0VsJRUcch5c9bn7bkoa8DWc8s8RQcQwppL9aQcHmY5abBgza9F_WEAA; SIDCC=ABTWhQFNQ22WZklLN0HI7lJQptJORoUrXKPXjfGS-6Xx3zI7qfMfvS7N8Xh51aS2AM-hkx-fWw; __Secure-1PSIDCC=ABTWhQHebWu78WehMBfn9mvhw0_eHihWoQeO0caetdftMh9MbFUFXbRXSESIZz46m5dMtyteBw; __Secure-3PSIDCC=ABTWhQEKP7KH2LiNHbMEuvXQ1Jbpa5L8Tuw28pItlpGsOXXYElhgch8El4WwCsdX-UtVUWG96g' \
+  -H 'dnt: 1' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-arch: "x86"' \
+  -H 'sec-ch-ua-bitness: "64"' \
+  -H 'sec-ch-ua-full-version: "120.0.6099.130"' \
+  -H 'sec-ch-ua-full-version-list: "Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.130", "Google Chrome";v="120.0.6099.130"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-ch-ua-platform-version: "15.0.0"' \
+  -H 'sec-ch-ua-wow64: ?0' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  --compressed \
+  --output wt-gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf.tag.gz
